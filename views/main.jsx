@@ -6,7 +6,7 @@ export default class Main extends React.Component {
   render() {
     return(
     <main>
-      <div>Hello from React with ES6 :)</div>
+      <div id='comment'>Electronで伺か作るよ</div>
       <img src='img/sakura.png'></img>;
     </main>
     )
