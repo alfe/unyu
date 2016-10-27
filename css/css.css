@@ -1,0 +1,7 @@
+#comment>p{
+    border: 1px solid #333;
+}
+main > img {
+    right: 0;
+    position: absolute;
+}
