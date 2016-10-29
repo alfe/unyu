@@ -3,15 +3,13 @@
 import React from 'react';
 
 export default class Comment extends React.Component {
+  propTypes: {
+    name: '!!!'
+  };
   render() {
     return(
-      <p className='comment' style={{
-          border:'medium dotted #999',
-          background:'#FFFFFF',
-          padding:'10px',
-          width : '200px',
-        }}>
-        Electronで伺か作るよ!
+      <p className='comment'>
+        {this.props.name}
       </p>
     )
   }

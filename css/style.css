@@ -1,7 +1,18 @@
-p.comment{
-    color:green;
-}
 body{
-    -webkit-app-region: drag;
-    -webkit-user-select: none;  
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+p.comment{
+  color : green;
+  border : medium dotted #999;
+  border-radius: 10px;
+  background : #FFFFFF;
+  padding : 10px;
+  width : 200px;
+}
+#sakura{
+  -webkit-app-region: drag;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
