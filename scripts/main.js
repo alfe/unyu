@@ -6,5 +6,5 @@ import Comment from '../views/comment.jsx';
 
 window.onload = function(){
   ReactDOM.render(<Main />, document.body);
-  ReactDOM.render(<Comment />, document.getElementById('comment') );
+  ReactDOM.render(<Comment name="???" />, document.getElementById('comment') );
 }

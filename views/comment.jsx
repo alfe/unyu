@@ -3,9 +3,6 @@
 import React from 'react';
 
 export default class Comment extends React.Component {
-  propTypes: {
-    name: '!!!'
-  };
   render() {
     return(
       <p className='comment'>
@@ -14,3 +11,6 @@ export default class Comment extends React.Component {
     )
   }
 }
+Comment.defaultProps = {
+  name: 'Electronで伺か作るよ'
+};
