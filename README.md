@@ -1,1 +1,3 @@
-try
+#Electronでデスクトップマスコットをつくる
+Desktop mascot with Electron.
+
