@@ -3,16 +3,32 @@ body{
   -webkit-user-select: none;
 }
 p.comment{
-  color : green;
-  border : medium dotted #999;
+  border : 1px solid #999;
   border-radius: 10px;
   background : #FFFFFF;
-  padding : 10px;
+  padding : 20px;
   width : 200px;
 }
+
 #sakura{
   -webkit-app-region: drag;
   position: absolute;
   right: 0;
   bottom: 0;
+}
+#comment_sakura{
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+#unyu{
+  -webkit-app-region: drag;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#comment_unyu{
+  position: absolute;
+  top: 40%;
+  left: 0;
 }
