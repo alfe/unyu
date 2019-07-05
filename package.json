@@ -5,16 +5,20 @@
   "license": "MIT",
   "repository": "b52/electron-es6-react",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "electron": "^1.4.3"
-  }
+  },
+  "snyk": true
 }
